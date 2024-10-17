@@ -36,21 +36,21 @@ export default function HeroOne() {
                   sequence={[
                     // Same substring at the start will only be typed out once, initially
                     "Vision Insights.",
-                    1000, // wait 1s before replacing "Mice" with "Hamsters"
+                    2000, // wait 1s before replacing "Mice" with "Hamsters"
                     "Retinal Detect.",
-                    1000,
+                    2000,
                     "Eye Precision.",
-                    1000,
+                    2000,
                     "Scan to See.",
-                    1000,
+                    2000,
                     "Eye Health AI.",
-                    1000,
+                    2000,
                     "Smart Retinal.",
-                    1000,
+                    2000,
                     "Vision Tech.",
-                    1000,
+                    2000,
                     "Detect & Map.",
-                    1000,
+                    2000,
                   ]}
                   wrapper="span"
                   speed={50}
@@ -70,6 +70,7 @@ export default function HeroOne() {
                 Enhancing Ophthalmic Diagnostics with Automated Detection of
                 Retinal Abnormalities
               </p>
+              <br />
               <button
                 className="  text-white bg-amber-500 p-20 w-11 h-11 flex justify-center items-center border rounded-full"
                 onClick={handleVideo}
@@ -113,7 +114,7 @@ export default function HeroOne() {
       </section>
       <div className="relative">
         <div className="absolute block w-full h-auto bottom-[25px] z-1 left-0">
-          <Link href="#about">
+          <Link href="#projectScop">
             <i className="mdi mdi-arrow-down absolute top-0 left-0 right-0 text-center inline-flex items-center justify-center rounded-full bg-white dark:bg-slate-900 h-12 w-12 mx-auto shadow-md dark:shadow-gray-800"></i>
           </Link>
         </div>

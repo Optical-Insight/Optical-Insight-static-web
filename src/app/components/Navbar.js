@@ -129,7 +129,7 @@ export default function Navbar() {
             </li>
             <li className="nav-item">
               <Link1
-                to="about"
+                to="projectScop"
                 activeClass="active"
                 spy={true}
                 smooth={true}
@@ -137,12 +137,12 @@ export default function Navbar() {
                 className="nav-link"
                 onClick={() => setIsMenuOpen(false)}
               >
-                About Me
+                Project Scope
               </Link1>
             </li>
             <li className="nav-item">
               <Link1
-                to="service"
+                to="Milestones"
                 activeClass="active"
                 spy={true}
                 smooth={true}
@@ -150,12 +150,12 @@ export default function Navbar() {
                 className="nav-link"
                 onClick={() => setIsMenuOpen(false)}
               >
-                Services
+                Milestones
               </Link1>
             </li>
             <li className="nav-item">
               <Link1
-                to="experience"
+                to="Downloads"
                 activeClass="active"
                 spy={true}
                 smooth={true}
@@ -163,12 +163,12 @@ export default function Navbar() {
                 className="nav-link"
                 onClick={() => setIsMenuOpen(false)}
               >
-                Experience
+                Downloads
               </Link1>
             </li>
             <li className="nav-item">
               <Link1
-                to="project"
+                to="Aboutus"
                 activeClass="active"
                 spy={true}
                 smooth={true}
@@ -176,7 +176,7 @@ export default function Navbar() {
                 className="nav-link"
                 onClick={() => setIsMenuOpen(false)}
               >
-                Projects
+                About Us
               </Link1>
             </li>
             <li className="nav-item">
