@@ -3,6 +3,8 @@ import React, { useState } from "react";
 import Link from "next/link";
 import { TypeAnimation } from "react-type-animation";
 import CountUp from "react-countup";
+import { TypeAnimation } from "react-type-animation";
+import CountUp from "react-countup";
 import Image from "next/image";
 import { PiFirstAidFill } from "react-icons/pi";
 import { FaPlay } from "react-icons/fa";
