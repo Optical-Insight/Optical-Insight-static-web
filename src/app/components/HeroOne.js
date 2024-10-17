@@ -16,9 +16,8 @@ export default function HeroOne() {
         <div className="container">
           <div className="grid md:grid-cols-2 grid-cols-1 items-center gap-[30px]">
             <div>
-              {/* <h4 className="font-bold lg:text-[40px] text-3xl lg:leading-normal leading-normal mb-4">Hey! I am <br/> */}
               <h4 className="font-bold lg:text-[40px] text-3xl lg:leading-normal leading-normal mb-4">
-                Testing Amplify <br />
+                Hey! I am <br />
                 <TypeAnimation
                   sequence={[
                     // Same substring at the start will only be typed out once, initially
