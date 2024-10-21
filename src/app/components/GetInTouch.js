@@ -30,7 +30,7 @@ export default function GetInTouch() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-12 md:grid-cols-2 mt-8 items-center gap-[30px]">
+        <div className="grid grid-cols-1 lg:grid-cols-1 md:grid-cols-1 mt-8  justify-center items-center gap-[30px]">
           <div className="lg:col-span-8">
             <div className="p-6 rounded-md shadow bg-white dark:bg-slate-900">
               <form onSubmit={handleSubmit(onSubmit)}>

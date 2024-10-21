@@ -31,11 +31,7 @@ export default function Index() {
       <Milestones />
       <Download />
       <AboutUs />
-      {/* <Services /> */}
-      {/* <CTABanner /> */}
-      {/* <Experience /> */}
-      {/* <Clients /> */}
-      {/* <Blogs /> */}
+
       <GetInTouch />
       <Footer />
       {/* <Switcher /> */}
