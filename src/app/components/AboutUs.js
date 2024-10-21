@@ -35,8 +35,9 @@ export default function AboutUs() {
             </h3>
 
             <p className="text-slate-400 max-w-xl mx-auto text-[15px]">
-              Obviously I am a Web Designer. Web Developer with over 7 years of
-              experience. Experienced with all stages of the development.
+              Meet our team of passionate professionals, driven by innovation
+              and expertise, committed to transforming healthcare through
+              groundbreaking solutions.
             </p>
           </div>
 

@@ -90,61 +90,6 @@ export default function GetInTouch() {
               </form>
             </div>
           </div>
-
-          <div className="lg:col-span-4">
-            <div className="lg:ms-8">
-              <div className="flex">
-                <div className="icons text-center mx-auto">
-                  <Unicons.UilPhone className=" block rounded text-2xl dark:text-white mb-0" />
-                </div>
-
-                <div className="flex-1 ms-6">
-                  <h5 className="text-[17px] dark:text-white mb-2 font-medium">
-                    Phone
-                  </h5>
-                  <Link
-                    href="tel:+152534-468-854"
-                    className="text-slate-400 text-[15px]"
-                  >
-                    +152 534-468-854
-                  </Link>
-                </div>
-              </div>
-
-              <div className="flex mt-4">
-                <div className="icons text-center mx-auto">
-                  <Unicons.UilEnvelope className=" block rounded text-2xl dark:text-white mb-0" />
-                </div>
-
-                <div className="flex-1 ms-6">
-                  <h5 className="text-[17px] dark:text-white mb-2 font-medium">
-                    Email
-                  </h5>
-                  <Link
-                    href="mailto:contact@example.com"
-                    className="text-slate-400 text-[15px]"
-                  >
-                    contact@example.com
-                  </Link>
-                </div>
-              </div>
-
-              <div className="flex mt-4">
-                <div className="icons text-center mx-auto">
-                  <Unicons.UilMapMarker className=" block rounded text-2xl dark:text-white mb-0" />
-                </div>
-
-                <div className="flex-1 ms-6">
-                  <h5 className="text-[17px] dark:text-white mb-2 font-medium">
-                    Location
-                  </h5>
-                  <p className="text-slate-400 text-[15px] mb-2">
-                    C/54 Northwest Freeway, Suite 558, Houston, USA 485
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </section>

@@ -9,6 +9,13 @@ function Technology() {
           <h3 className="mb-6 md:text-2xl text-xl md:leading-normal leading-normal font-semibold">
             Technologies Used
           </h3>
+          <p className="text-slate-400 mx-auto text-[15px]">
+            To develop an effective, high-precision diagnostic system, this
+            research will incorporate a range of cutting-edge technologies and
+            tools that collectively enhance image processing, machine learning
+            model development, and the delivery of real-time diagnostic insights
+            to medical professionals.
+          </p>
         </div>
 
         <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 mt-8 gap-[30px]">
