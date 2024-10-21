@@ -1,8 +1,6 @@
 "use client";
 import React from "react";
-import Link from "next/link";
 import { ResearchGapData } from "../Data/data";
-import * as Unicons from "@iconscout/react-unicons";
 
 function ResearchGap() {
   return (
@@ -27,7 +25,7 @@ function ResearchGap() {
             const Icon = item.Icon;
             return (
               <div
-                className="px-6 py-10 shadow shadow-gray-200 hover:shadow-md dark:shadow-gray-800 dark:hover:shadow-gray-700 transition duration-500 rounded-2xl bg-white dark:bg-slate-900"
+                className="px-6 py-10 shadow shadow-gray-200 hover:shadow-md dark:shadow-gray-800 dark:hover:shadow-gray-700 transition duration-500 rounded-2xl bg-gray-50 dark:bg-slate-900"
                 key={index}
               >
                 <Icon className="h-10 w-10 stroke-1 text-red-500" />

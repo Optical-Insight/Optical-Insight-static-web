@@ -179,19 +179,6 @@ export default function Navbar() {
                 About Us
               </Link1>
             </li>
-            {/* <li className="nav-item">
-              <Link1
-                to="blog"
-                activeClass="active"
-                spy={true}
-                smooth={true}
-                duration={500}
-                className="nav-link cursor-pointer"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                Blogs
-              </Link1>
-            </li> */}
             <li className="nav-item">
               <Link1
                 to="contact"

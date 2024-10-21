@@ -34,9 +34,8 @@ export default function HeroOne() {
                 <br />
                 <TypeAnimation
                   sequence={[
-                    // Same substring at the start will only be typed out once, initially
                     "Vision Insights.",
-                    2000, // wait 1s before replacing "Mice" with "Hamsters"
+                    2000,
                     "Retinal Detect.",
                     2000,
                     "Eye Precision.",
@@ -120,10 +119,10 @@ export default function HeroOne() {
         </div>
       </div>
       <ModalVideo
-        channel="youtube" // You can change this to 'vimeo' or other supported platforms
+        channel="youtube"
         autoplay
         isOpen={isOpenVideo}
-        videoId="w9RxpQwho0o" // Replace with your video ID
+        videoId="w9RxpQwho0o"
         onClose={handleVideo}
       />
     </>
