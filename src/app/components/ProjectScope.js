@@ -1,9 +1,5 @@
 "use client";
 import React from "react";
-import Link from "next/link";
-import Image from "next/image";
-import { expertiseData } from "../Data/data";
-import CountUp from "react-countup";
 import LiteratureSurvey from "./LiteratureSurvey";
 import ResearchGap from "./ResearchGap";
 import ResearchProblem from "./ResearchProblem";

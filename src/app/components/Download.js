@@ -1,7 +1,6 @@
 import React from "react";
 import Link from "next/link";
 import { documentSet, presentationSet } from "../Data/data";
-import * as Unicons from "@iconscout/react-unicons";
 import { FaRegFilePdf } from "react-icons/fa";
 import { FiDownload } from "react-icons/fi";
 import { FaRegFilePowerpoint } from "react-icons/fa";

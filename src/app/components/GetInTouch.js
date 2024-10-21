@@ -1,7 +1,5 @@
 "use client";
 import React from "react";
-import Link from "next/link";
-import * as Unicons from "@iconscout/react-unicons";
 import { useForm } from "react-hook-form";
 import { sendEmail } from "@/app/utils/send-email";
 
