@@ -13,9 +13,11 @@ function ResearchGap() {
             Research Gap
           </h3>
 
-          <p className="text-slate-400 max-w-xl mx-auto text-[15px]">
-            Following areas are the research gaps found in most of the recent
-            researches.
+          <p className="text-slate-400 mx-auto text-[15px]">
+            The following research gaps highlight critical areas where further
+            investigation and development are needed to enhance the accuracy,
+            efficacy, and applicability of technological advancements in the
+            diagnosis and management of retinal diseases.
           </p>
         </div>
 

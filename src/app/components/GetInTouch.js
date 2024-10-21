@@ -24,8 +24,9 @@ export default function GetInTouch() {
           </h3>
 
           <p className="text-slate-400 max-w-xl mx-auto text-[15px]">
-            Obviously I am a Web Designer. Web Developer with over 7 years of
-            experience. Experienced with all stages of the development.
+            For further inqueries please reach us at opticalinsight24@gmail.com
+            <br />
+            Hope this project helped you in some manner. Thank you!
           </p>
         </div>
 

@@ -48,8 +48,11 @@ function Documents() {
 
                   <div className="mt-5">
                     <Link
-                      href=""
-                      className="hover:text-amber-500 dark:hover:text-amber-500 after:bg-amber-500 dark:text-white transition duration-500 inline-flex items-center gap-1"
+                      href={item.link}
+                      className={`hover:text-amber-500 dark:hover:text-amber-500 after:bg-amber-500 dark:text-white transition duration-500 inline-flex items-center gap-1 ${
+                        !item.link ? "pointer-events-none opacity-50" : ""
+                      }`}
+                      target="_blank"
                     >
                       Download{" "}
                       <FiDownload width={16} style={{ marginLeft: "10px" }} />
@@ -91,11 +94,11 @@ function Documents() {
 
                   <div className="mt-5">
                     <Link
-                      href={item.link} // Set the href to the link in presentationSet
+                      href={item.link}
                       className={`hover:text-amber-500 dark:hover:text-amber-500 after:bg-amber-500 dark:text-white transition duration-500 inline-flex items-center gap-1 ${
                         !item.link ? "pointer-events-none opacity-50" : ""
                       }`}
-                      target="_blank" // Open in new tab
+                      target="_blank"
                     >
                       Download{" "}
                       <FiDownload width={16} style={{ marginLeft: "10px" }} />

@@ -12,12 +12,14 @@ export default function Services() {
       <div className="container">
         <div className="grid grid-cols-1 pb-8 text-center">
           <h3 className="mb-6 md:text-2xl text-xl md:leading-normal leading-normal font-semibold">
-            What do i offer?
+            Research Gaps
           </h3>
 
-          <p className="text-slate-400 max-w-xl mx-auto text-[15px]">
-            Obviously I am a Web Designer. Web Developer with over 7 years of
-            experience. Experienced with all stages of the development.
+          <p className="text-slate-400 mx-auto text-[15px]">
+            The following research gaps highlight critical areas where further
+            investigation and development are needed to enhance the accuracy,
+            efficacy, and applicability of technological advancements in the
+            diagnosis and management of retinal diseases.
           </p>
         </div>
 
@@ -40,14 +42,14 @@ export default function Services() {
                   </Link>
                   <p className="text-slate-400 mt-3 text-[15px]">{item.desc}</p>
 
-                  <div className="mt-5">
+                  {/* <div className="mt-5">
                     <Link
                       href=""
                       className="hover:text-amber-500 dark:hover:text-amber-500 after:bg-amber-500 dark:text-white transition duration-500 inline-flex items-center gap-1"
                     >
                       Read More <Unicons.UilArrowRight width={16} />
                     </Link>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             );
