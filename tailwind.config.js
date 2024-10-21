@@ -31,6 +31,7 @@ module.exports = {
       colors: {
         dark: "#3c4858",
         black: "#161c2d",
+        lighBlue: "#dae0f6",
         "dark-footer": "#192132",
       },
 
