@@ -286,3 +286,89 @@ export const review = [
     desc: "Obviously I am a Web Designer. Web Developer with over 7 years of experience. Experienced with all stages of the development.",
   },
 ];
+
+export const aboutUsSupervisors = [
+  {
+    name: "Dr. Dinuka Wijendra",
+    memberType: "Supervisor",
+    position: "Senior Lecturer",
+    workPlace: "Sri Lanka Institute of Information Technology",
+    image: "/images/aboutUs/dinukaWijendra.jpeg",
+    department: "Computer Science and Software Engineering",
+    linkedIn:
+      "https://www.linkedin.com/in/dinuka-wijendra-b87002245/?originalSubdomain=lk",
+    linkedInName: "Dinuka Wijendra",
+    email: "dinuka@gmail.com",
+  },
+  {
+    name: "Dr. Dilshan De Silva",
+    memberType: "Co-Supervisor",
+    position: "Senior Lecturer",
+    workPlace: "Sri Lanka Institute of Information Technology",
+    image: "/images/aboutUs/dilshanDeSilva.jpeg",
+    department: "Computer Science and Software Engineering",
+    linkedIn: "https://www.linkedin.com/in/dr-dilshan-de-silva-96384573/",
+    linkedInName: "Dr. Dilshan De Silva",
+    email: "dilshanDeSilva@gmail.com",
+  },
+  {
+    name: "Dr. Priyanga Iddawela",
+    memberType: "External Supervisor",
+    position: "Consultant Eye Surgeon",
+    workPlace: "General Hospital, Colombo",
+    image: "/images/aboutUs/priyangaIddawela.jpeg",
+    department: "Ophthalmology",
+    linkedIn:
+      "https://www.linkedin.com/in/priyanga-iddawela-35815b35/?originalSubdomain=lk",
+    linkedInName: "Priyanga IddawelaView",
+    email: "dinuka@gmail.com",
+  },
+];
+
+export const aboutUsStudents = [
+  {
+    name: "Kithmina Siriwardana",
+    memberType: "Group Leader",
+    position: "Undergraduate",
+    workPlace: "Sri Lanka Institute of Information Technology",
+    image: "/images/aboutUs/kithminaSiriwardana.jpeg",
+    department: "Computer Science and Software Engineering",
+    linkedIn: "https://www.linkedin.com/in/kithmina-siriwardana-996593213/",
+    linkedInName: "Kithmina Siriwardana",
+    email: "kithmina@gmail.com",
+  },
+  {
+    name: "Udesh Piyumantha",
+    memberType: "Group Member",
+    position: "Undergraduate",
+    workPlace: "Sri Lanka Institute of Information Technology",
+    image: "/images/aboutUs/UdeshPiyumantha.jpeg",
+    department: "Computer Science and Software Engineering",
+    linkedIn: "https://www.linkedin.com/in/udesh-piyumantha/",
+    linkedInName: "Udesh Piyumantha ",
+    email: "udesh@gmail.com",
+  },
+  {
+    name: "Shehan Gunasekara",
+    memberType: "Group Member",
+    position: "Undergraduate",
+    workPlace: "Sri Lanka Institute of Information Technology",
+    image: "/images/aboutUs/shehanGunasekara.jpeg",
+    department: "Computer Science and Software Engineering",
+    linkedIn: "https://www.linkedin.com/in/shehan-gunasekara-b29638245/",
+    linkedInName: "Shehan Gunasekara",
+    email: "shehan@gmail.com",
+  },
+  {
+    name: "Sahan Thilakarathne",
+    memberType: "Group Member",
+    position: "Undergraduate",
+    workPlace: "Sri Lanka Institute of Information Technology",
+    image: "/images/aboutUs/SahanThilakarathne.jpeg",
+    department: "Computer Science and Software Engineering",
+    linkedIn:
+      "https://www.linkedin.com/in/sahan-pradeeptha-thilakaratne-a5b2951b2/",
+    linkedInName: "Sahan Pradeeptha Thilakaratne",
+    email: "kithmina@gmail.com",
+  },
+];
