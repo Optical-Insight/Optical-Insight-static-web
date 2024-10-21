@@ -9,8 +9,13 @@ function Milestones() {
       <div className="container">
         <div className="grid grid-cols-1 pb-8 text-center">
           <h3 className="mb-6 md:text-2xl text-xl md:leading-normal leading-normal font-semibold">
-            Timeline in Brief
+            Milestones
           </h3>
+          <p className="text-slate-400 mx-auto text-[15px]">
+            The project will follow a structured timeline with key milestones to
+            ensure timely progress, from data collection and model development
+            to system deployment and evaluation.
+          </p>
         </div>
 
         <div className="grid grid-cols-1 mt-8">

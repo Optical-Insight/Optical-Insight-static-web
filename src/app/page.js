@@ -32,10 +32,10 @@ export default function Index() {
       <Download />
       <AboutUs />
       {/* <Services /> */}
-      <CTABanner />
+      {/* <CTABanner /> */}
       {/* <Experience /> */}
-      <Clients />
-      <Blogs />
+      {/* <Clients /> */}
+      {/* <Blogs /> */}
       <GetInTouch />
       <Footer />
       {/* <Switcher /> */}
