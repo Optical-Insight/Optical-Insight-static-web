@@ -22,7 +22,7 @@ function ResearchObjective() {
               const Icon = item.Icon;
               return (
                 <div
-                  className="px-6 py-10 shadow shadow-gray-200 hover:shadow-md dark:shadow-gray-800 dark:hover:shadow-gray-700 transition duration-500 rounded-2xl bg-white dark:bg-slate-900 flex flex-row text-center"
+                  className="px-6 py-10 shadow shadow-gray-200 hover:shadow-md dark:shadow-gray-800 dark:hover:shadow-gray-700 transition duration-500 rounded-2xl bg-gray-50 dark:bg-slate-900 flex flex-row text-center"
                   key={index}
                 >
                   <div className="content mt-7">

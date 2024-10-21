@@ -1,7 +1,5 @@
 "use client";
 import React from "react";
-import Link from "next/link";
-import * as Unicons from "@iconscout/react-unicons";
 import { useForm } from "react-hook-form";
 import { sendEmail } from "@/app/utils/send-email";
 
@@ -14,7 +12,7 @@ export default function GetInTouch() {
 
   return (
     <section
-      className="relative md:py-24 py-16 bg-gray-50 dark:bg-slate-800"
+      className="relative md:py-24 py-16 bg-white dark:bg-slate-800"
       id="contact"
     >
       <div className="container">
@@ -34,7 +32,7 @@ export default function GetInTouch() {
           <div className="lg:col-span-8">
             <div className="p-6 rounded-md shadow bg-white dark:bg-slate-900">
               <form onSubmit={handleSubmit(onSubmit)}>
-                <div className="grid lg:grid-cols-12 lg:gap-5">
+                <div className="grid lg:grid-cols-12 lg:gap-5 ">
                   <div className="lg:col-span-6 mb-5">
                     <input
                       name="name"
