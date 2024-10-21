@@ -99,9 +99,9 @@ export const ResearchGapData = [
 
 export const documentSet = [
   {
-    title: "Topic Assessment",
-    desc: "",
-    link: "",
+    title: "Topic Assessment Form",
+    desc: "The Topic Assessment Form is used to evaluate the feasibility and relevance of proposed project topics, ensuring alignment with objectives and standards.",
+    link: "https://drive.google.com/file/d/1fbpm2DEhvGVQxOVyma11CbX-nWH5n9H-/view?usp=sharing",
   },
   // {
   //   title: "Project Charter",
@@ -115,12 +115,12 @@ export const documentSet = [
   },
   {
     title: "Status Documents I",
-    desc: "",
+    desc: "Status Documents I provide updates on the progress of a project, outlining milestones achieved, challenges encountered, and future plans to keep stakeholders informed.",
     link: "https://drive.google.com/drive/folders/1t-JJVs_spmTSiiQ5zcGq1rbQmFSJ5s7r?usp=sharing",
   },
   {
     title: "Status Documents II",
-    desc: "",
+    desc: "Status Documents II offer a detailed account of ongoing project activities, highlighting any significant changes, resource allocation, and key decisions made to ensure transparency and effective project management.",
     link: "https://drive.google.com/drive/folders/1iVqkfd2z7H_FP_4EUU12DBMXMRBS35Fq?usp=sharing",
   },
   {
@@ -135,7 +135,7 @@ export const documentSet = [
   },
   {
     title: "Poster",
-    desc: "",
+    desc: "The Poster serves as a visual representation of the project's key findings and insights, designed to engage viewers and facilitate discussions during presentations or conferences.",
     link: "",
   },
 ];
