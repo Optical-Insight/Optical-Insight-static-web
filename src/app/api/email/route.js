@@ -14,9 +14,9 @@ export async function POST(request) {
 
   const mailOptions = {
     from: process.env.MY_EMAIL,
-    to: email,
-    subject: subject,
-    text: message,
+    to: process.env.MY_EMAIL,
+    subject: `Message from ${name} (${email})`,
+    text: `**${subject}**\n\n${message}`,
   };
 
   const sendMailPromise = () =>
