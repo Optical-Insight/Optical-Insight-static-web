@@ -11,10 +11,11 @@ function Technology() {
           </h3>
           <p className="text-slate-400 mx-auto text-[15px]">
             To develop an effective, high-precision diagnostic system, this
-            research will incorporate a range of cutting-edge technologies and
-            tools that collectively enhance image processing, machine learning
-            model development, and the delivery of real-time diagnostic insights
-            to medical professionals.
+            research will incorporate a range of cutting-edge <br />{" "}
+            technologies and tools that collectively enhance image processing,
+            machine learning model development,
+            <br /> and the delivery of real-time diagnostic insights to medical
+            professionals.
           </p>
         </div>
 

@@ -15,9 +15,10 @@ function ResearchGap() {
 
           <p className="text-slate-400 mx-auto text-[15px]">
             The following research gaps highlight critical areas where further
-            investigation and development are needed to enhance the accuracy,
-            efficacy, and applicability of technological advancements in the
-            diagnosis and management of retinal diseases.
+            investigation and development are needed <br /> to enhance the
+            accuracy, efficacy, and applicability of technological advancements{" "}
+            <br />
+            in the diagnosis and management of retinal diseases.
           </p>
         </div>
 

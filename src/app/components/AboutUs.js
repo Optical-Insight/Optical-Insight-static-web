@@ -27,16 +27,16 @@ export default function AboutUs() {
 
   return (
     <>
-      <section className="relative md:py-24 py-16" id="Aboutus">
+      <section className="relative md:py-24 py-16 bg-gray-50" id="Aboutus">
         <div className="container">
           <div className="grid grid-cols-1 pb-8 text-center">
             <h3 className="mb-6 md:text-2xl text-xl md:leading-normal leading-normal font-semibold">
               About Us
             </h3>
 
-            <p className="text-slate-400 max-w-xl mx-auto text-[15px]">
+            <p className="text-slate-400 mx-auto text-[15px]">
               Meet our team of passionate professionals, driven by innovation
-              and expertise, committed to transforming healthcare through
+              and expertise, <br /> committed to transforming healthcare through
               groundbreaking solutions.
             </p>
           </div>
@@ -74,9 +74,10 @@ export default function AboutUs() {
                   </Link>
                 </div>
               </div>
-              cccccccccczzzzzzz
-              <br /> cccccccccczzzzzzz
-              <br /> cccccccccczzzzzzz
+              Kithmina Siriwardana
+              <br /> Undergraduate @ Sri Lanka Institute of Information
+              Technology
+              <br /> Department of Computer Science and Software Engineering
               <br />
             </div>
 

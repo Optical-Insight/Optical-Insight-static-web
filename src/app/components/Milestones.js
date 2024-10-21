@@ -13,8 +13,10 @@ function Milestones() {
           </h3>
           <p className="text-slate-400 mx-auto text-[15px]">
             The project will follow a structured timeline with key milestones to
-            ensure timely progress, from data collection and model development
-            to system deployment and evaluation.
+            ensure timely progress,
+            <br />
+            from data collection and model development to system deployment and
+            evaluation.
           </p>
         </div>
 
