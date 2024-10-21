@@ -75,7 +75,7 @@ function Documents() {
 
         <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 mt-8 gap-[30px]">
           {presentationSet.map((item, index) => {
-            const Icon = item.Icon;
+            const Icon = item.Icon; // If you have a specific icon for each item, adjust accordingly
             return (
               <div
                 className="px-6 py-10 shadow shadow-gray-200 hover:shadow-md dark:shadow-gray-800 dark:hover:shadow-gray-700 transition duration-500 rounded-2xl bg-white dark:bg-slate-900"
@@ -84,15 +84,18 @@ function Documents() {
                 <FaRegFilePowerpoint className="h-10 w-10 stroke-1 text-amber-500" />
 
                 <div className="content mt-7">
-                  <p href="" className="title h5 text-[17px] font-medium ">
+                  <p className="title h5 text-[17px] font-medium">
                     {item.title}
                   </p>
                   <p className="text-slate-400 mt-3 text-[15px]">{item.desc}</p>
 
                   <div className="mt-5">
                     <Link
-                      href=""
-                      className="hover:text-amber-500 dark:hover:text-amber-500 after:bg-amber-500 dark:text-white transition duration-500 inline-flex items-center gap-1"
+                      href={item.link} // Set the href to the link in presentationSet
+                      className={`hover:text-amber-500 dark:hover:text-amber-500 after:bg-amber-500 dark:text-white transition duration-500 inline-flex items-center gap-1 ${
+                        !item.link ? "pointer-events-none opacity-50" : ""
+                      }`}
+                      target="_blank" // Open in new tab
                     >
                       Download{" "}
                       <FiDownload width={16} style={{ marginLeft: "10px" }} />

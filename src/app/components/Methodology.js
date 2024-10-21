@@ -28,31 +28,41 @@ function Methodology() {
               </h3>
 
               <p className="text-slate-400 max-w-xl text-[15px]">
-                Obviously I am a Web Designer. Web Developer with over 7 years
-                of experience. Experienced with all stages of the development
-                cycle for dynamic web projects. The as opposed to using Content
-                here, content here, making it look like readable English.
-                Obviously I am a Web Designer. Web Developer with over 7 years
-                of experience. Experienced with all stages of the development
-                cycle for dynamic web projects. The as opposed to using Content
-                here, content here, making it look like readable English.
-                Obviously I am a Web Designer. Web Developer with over 7 years
-                of experience. Experienced with all stages of the development
-                cycle for dynamic web projects. The as opposed to using Content
-                here, content here, making it look like readable English.
-                Obviously I am a Web Designer. Web Developer with over 7 years
-                of experience. Experienced with all stages of the development
-                content here, making it look like readable English. Obviously I
-                am a Web Designer. Web Developer with over 7 years of
-                experience. Experienced with all stages of the development
-                content here, making it look like readable English. Obviously I
-                am a Web Designer. Web Developer with over 7 years of
-                experience. Experienced with all stages of the development
-                content here, making it look like readable English. Obviously I
+                This research focuses on developing deep learning models to
+                automate the detection of retinal diseases, including Glaucoma,
+                Drusen, Macular Hole (MH), and Central Serous Retinopathy (CSR).
+                The dataset, obtained from an eye care center, comprises
+                pre-classified retinal fundus images for each disease. Initial
+                preprocessing involved resizing images and splitting the data
+                into training, validation, and testing sets. To enhance
+                generalization and prevent overfitting, advanced data
+                augmentation techniques were applied, including image flipping,
+                rotation, cropping, and lighting adjustments. This increased the
+                dataset size significantly, improving the model’s ability to
+                handle varying image conditions and patient demographics.
               </p>
               <p className="text-slate-400 max-w-xl text-[15px] mt-6">
-                I am a professional web designer. My motive is to build a best
-                web design with my all years of experience.
+                For each disease, a deep learning model was developed to
+                maximize detection accuracy. The YOLOv8x model was employed for
+                Glaucoma detection, focusing on optic disc localization to
+                accurately diagnose optic nerve damage. A ResNet-VGG16 hybrid
+                was used to improve Drusen detection, while a U-Net-ResNet model
+                was deployed for Macular Hole detection, addressing overfitting
+                challenges. For CSR detection, a DenseNet-VGG16 hybrid model was
+                introduced to improve generalization across diverse imaging
+                setups.
+              </p>
+              <p className="text-slate-400 max-w-xl text-[15px] mt-6">
+                Each model was rigorously trained and validated using metrics
+                such as accuracy, F1-score, and AUC-ROC. To facilitate
+                real-world application, these models were integrated into a
+                web-based application using microservice architecture. The
+                application allows healthcare professionals to upload retinal
+                images, receive real-time diagnostic results, and view marked-up
+                images showing areas of concern. Google Cloud Run was employed
+                for deployment, ensuring scalability and secure data handling,
+                while Docker was used to containerize each microservice for
+                easier management​.
               </p>
             </div>
           </div>

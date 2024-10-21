@@ -16,33 +16,32 @@ function ResearchProblem() {
                 Research Problem
               </h5>
 
-              <p className="text-slate-400 max-w-xl text-[15px]">
-                Obviously I am a Web Designer. Web Developer with over 7 years
-                of experience. Experienced with all stages of the development
-                cycle for dynamic web projects. The as opposed to using Content
-                here, content here, making it look like readable English.
-                Obviously I am a Web Designer. Web Developer with over 7 years
-                of experience. Experienced with all stages of the development
-                cycle for dynamic web projects. The as opposed to using Content
-                here, content here, making it look like readable English.
-                Obviously I am a Web Designer. Web Developer with over 7 years
-                of experience. Experienced with all stages of the development
-                cycle for dynamic web projects. The as opposed to using Content
-                here, content here, making it look like readable English.
-                Obviously I am a Web Designer. Web Developer with over 7 years
-                of experience. Experienced with all stages of the development
-                content here, making it look like readable English. Obviously I
-                am a Web Designer. Web Developer with over 7 years of
-                experience. Experienced with all stages of the development
-                content here, making it look like readable English. Obviously I
-                am a Web Designer. Web Developer with over 7 years of
-                experience. Experienced with all stages of the development
-                content here, making it look like readable English. Obviously I
+              <p className="text-slate-400 max-w-xl text-[15px] text-justify">
+                The diagnosis of retinal diseases such as Glaucoma, Macular Hole
+                (MH), Central Serous Retinopathy (CSR), and Drusen remains a
+                significant challenge in ophthalmology. Traditional diagnostic
+                methods, which rely heavily on human expertise and manual
+                interpretation of retinal fundus images, are prone to
+                subjectivity, variability, and inefficiency. These issues are
+                particularly critical in early-stage disease detection, where
+                subtle changes in retinal structure can easily go unnoticed,
+                leading to delayed treatment and worsening of patient outcomes.
+                The complexity of accurately diagnosing these conditions is
+                further compounded by variations in image quality, patient
+                demographics, and the presence of other comorbidities, which
+                often make consistent and accurate diagnoses difficult to
+                achieve. Moreover, current imaging techniques, while capable of
+                providing high-resolution retinal images, are still limited by
+                the clinician’s ability to interpret the data consistently. This
+                results in variability in diagnostic accuracy, especially in
+                detecting the early and subtle manifestations of these diseases,
+                which can lead to misdiagnoses or late-stage detection when
+                treatment options are limited and less effective.
               </p>
-              <p className="text-slate-400 max-w-xl text-[15px] mt-6">
+              {/* <p className="text-slate-400 max-w-xl text-[15px] mt-6">
                 I am a professional web designer. My motive is to build a best
                 web design with my all years of experience.
-              </p>
+              </p> */}
             </div>
           </div>{" "}
           <div className="lg:col-span-6 lg:px-8">
@@ -69,34 +68,31 @@ function ResearchProblem() {
               <h5 className="mb-6 md:text-lg text-lg text-amber-500 md:leading-normal leading-normal font-semibold">
                 Research Solution
               </h5>
-              <p className="text-slate-400  text-[15px]">
-                Obviously I am a Web Designer. Web Developer with over 7 years
-                of experience. Experienced with all stages of the development
-                cycle for dynamic web projects. The as opposed to using Content
-                here, content here, making it look like readable English.
-                Obviously I am a Web Designer. Web Developer with over 7 years
-                of experience. Experienced with all stages of the development
-                cycle for dynamic web projects. The as opposed to using Content
-                here, content here, making it look like readable English.
-                Obviously I am a Web Designer. Web Developer with over 7 years
-                of experience. Experienced with all stages of the development
-                cycle for dynamic web projects. The as opposed to using Content
-                here, content here, making it look like readable English.
-                Obviously I am a Web Designer. Web Developer with over 7 years
-                of experience. Experienced with all stages of the development
-                content here, making it look like readable English. Obviously I
-                am a Web Designer. Web Developer with over 7 years of
-                experience. Experienced with all stages of the development
-                content here, making it look like readable English. Obviously I
-                am a Web Designer. Web Developer with over 7 years of
-                experience. Experienced with all stages of the development
-                content here, making it look like readable English. Obviously I
-                am a Web Designer. Web Developer with over 7 years of
-                experience. Experienced with all stages of the development
+              <p className="text-slate-400 text-[15px]">
+                This research introduces a hybrid deep learning approach that
+                integrates multiple architectures to address the limitations of
+                existing single-model techniques in detecting retinal diseases.
+                By combining models such as ResNet, VGG16, DenseNet, U-Net, and
+                YOLOv8x, the proposed solution leverages the strengths of each
+                architecture to improve the accuracy, generalization, and
+                robustness of automated diagnosis. For instance, the
+                U-Net-ResNet hybrid model addresses the overfitting issues seen
+                with Macular Hole detection, while the DenseNet-VGG16 hybrid
+                enhances Central Serous Retinopathy detection. The YOLOv8x
+                object detection model excels in Glaucoma detection by
+                localizing and segmenting the optic disc with high precision.
               </p>
-              <p className="text-slate-400 max-w-xl text-[15px] mt-6">
-                I am a professional web designer. My motive is to build a best
-                web design with my all years of experience.
+              <p className="text-slate-400 text-[15px] mt-6">
+                To further enhance diagnostic consistency, the study employed
+                data augmentation techniques to handle variability in patient
+                demographics and image quality, preventing overfitting and
+                improving model generalization. These models were integrated
+                into a web-based application that allows healthcare
+                professionals to upload fundus images and receive real-time
+                diagnostic reports. With sensitivities and specificities
+                exceeding 95%, the solution offers a powerful tool for early
+                detection, significantly reducing dependency on human expertise
+                and streamlining clinical workflows.
               </p>
             </div>
           </div>
