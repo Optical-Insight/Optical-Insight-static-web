@@ -57,7 +57,7 @@ export default function Navbar() {
             <li className="inline-flex">
               <Link href="" className="ms-1">
                 <span className="login-btn-primary">
-                  <span className="btn btn-icon btn-sm rounded-full bg-amber-500 hover:bg-amber-600 border-amber-500 hover:border-amber-600 text-white">
+                  <span className="btn btn-icon btn-sm rounded-full bg-amber-500 hover:bg-amber-600 dark:border-gray-700 dark:hover:border-gray-700 text-white">
                     <Unicons.UilDribbble width={16} />
                   </span>
                 </span>
@@ -69,7 +69,7 @@ export default function Navbar() {
               </Link>
               <Link href="" className="ms-1">
                 <span className="login-btn-primary ">
-                  <span className="btn btn-icon btn-sm rounded-full bg-amber-500 hover:bg-amber-600 border-amber-500 hover:border-amber-600 text-white">
+                  <span className="btn btn-icon btn-sm rounded-full bg-amber-500 hover:bg-amber-600 dark:border-gray-700 dark:hover:border-gray-700 text-white">
                     <Unicons.UilBehance width={16} />
                   </span>
                 </span>
@@ -81,7 +81,7 @@ export default function Navbar() {
               </Link>
               <Link href="" className="ms-1">
                 <span className="login-btn-primary">
-                  <span className="btn btn-icon btn-sm rounded-full bg-amber-500 hover:bg-amber-600 border-amber-500 hover:border-amber-600 text-white">
+                  <span className="btn btn-icon btn-sm rounded-full bg-amber-500 hover:bg-amber-600 dark:border-gray-700 dark:hover:border-gray-700 text-white">
                     <Unicons.UilInstagram width={16} />
                   </span>
                 </span>
@@ -121,7 +121,7 @@ export default function Navbar() {
                 spy={true}
                 smooth={true}
                 duration={500}
-                className="nav-link"
+                className="nav-link cursor-pointer"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Home
@@ -134,7 +134,7 @@ export default function Navbar() {
                 spy={true}
                 smooth={true}
                 duration={500}
-                className="nav-link"
+                className="nav-link cursor-pointer"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Project Scope
@@ -147,7 +147,7 @@ export default function Navbar() {
                 spy={true}
                 smooth={true}
                 duration={500}
-                className="nav-link"
+                className="nav-link cursor-pointer"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Milestones
@@ -160,7 +160,7 @@ export default function Navbar() {
                 spy={true}
                 smooth={true}
                 duration={500}
-                className="nav-link"
+                className="nav-link cursor-pointer"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Downloads
@@ -173,7 +173,7 @@ export default function Navbar() {
                 spy={true}
                 smooth={true}
                 duration={500}
-                className="nav-link"
+                className="nav-link cursor-pointer"
                 onClick={() => setIsMenuOpen(false)}
               >
                 About Us
@@ -186,7 +186,7 @@ export default function Navbar() {
                 spy={true}
                 smooth={true}
                 duration={500}
-                className="nav-link"
+                className="nav-link cursor-pointer"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Blogs
@@ -199,10 +199,10 @@ export default function Navbar() {
                 spy={true}
                 smooth={true}
                 duration={500}
-                className="nav-link"
+                className="nav-link cursor-pointer"
                 onClick={() => setIsMenuOpen(false)}
               >
-                Contact Me
+                Contact Us
               </Link1>
             </li>
           </ul>
