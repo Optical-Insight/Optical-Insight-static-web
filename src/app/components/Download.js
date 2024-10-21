@@ -9,7 +9,7 @@ import { FaRegFilePowerpoint } from "react-icons/fa";
 function Documents() {
   return (
     <section
-      className="relative md:py-24 py-16 bg-gray-50 dark:bg-slate-800"
+      className="relative md:py-24 py-16 bg-white dark:bg-slate-800"
       id="Downloads"
     >
       <div className="container">
@@ -35,7 +35,7 @@ function Documents() {
             const Icon = item.Icon;
             return (
               <div
-                className="px-6 py-10 shadow shadow-gray-200 hover:shadow-md dark:shadow-gray-800 dark:hover:shadow-gray-700 transition duration-500 rounded-2xl bg-white dark:bg-slate-900"
+                className="px-6 py-10 shadow shadow-gray-200 hover:shadow-md dark:shadow-gray-800 dark:hover:shadow-gray-700 transition duration-500 rounded-2xl bg-gray-50 dark:bg-slate-900"
                 key={index}
               >
                 <FaRegFilePdf className="h-10 w-10 stroke-1 text-amber-500" />
@@ -81,7 +81,7 @@ function Documents() {
             const Icon = item.Icon; // If you have a specific icon for each item, adjust accordingly
             return (
               <div
-                className="px-6 py-10 shadow shadow-gray-200 hover:shadow-md dark:shadow-gray-800 dark:hover:shadow-gray-700 transition duration-500 rounded-2xl bg-white dark:bg-slate-900"
+                className="px-6 py-10 shadow shadow-gray-200 hover:shadow-md dark:shadow-gray-800 dark:hover:shadow-gray-700 transition duration-500 rounded-2xl bg-gray-50 dark:bg-slate-900"
                 key={index}
               >
                 <FaRegFilePowerpoint className="h-10 w-10 stroke-1 text-amber-500" />
