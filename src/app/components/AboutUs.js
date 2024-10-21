@@ -5,6 +5,9 @@ import * as Unicons from "@iconscout/react-unicons";
 import Lightbox from "react-18-image-lightbox";
 import "../../../node_modules/react-18-image-lightbox/style.css";
 import Image from "next/image";
+import { FaLinkedin } from "react-icons/fa";
+import { MdOutlineMail } from "react-icons/md";
+
 const images = [
   "/images/works/1.jpg",
   "/images/works/2.jpg",
@@ -34,15 +37,15 @@ export default function AboutUs() {
               About Us
             </h3>
 
-            <p className="text-slate-400 mx-auto text-[15px]">
+            <p className="text-slate-400 max-w-xl mx-auto text-[15px]">
               Meet our team of passionate professionals, driven by innovation
-              and expertise, <br /> committed to transforming healthcare through
+              and expertise, committed to transforming healthcare through
               groundbreaking solutions.
             </p>
           </div>
 
           <div className="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-1 mt-8 gap-[30px]">
-            <div>
+            <div className=" shadow shadow-gray-200 hover:shadow-md dark:shadow-gray-800 dark:hover:shadow-gray-700 transition duration-500 rounded-2xl bg-white dark:bg-slate-900">
               <div className="relative group overflow-hidden rounded-lg shadow shadow-slate-200 dark:shadow-gray-800">
                 <Image
                   height={0}
@@ -56,13 +59,21 @@ export default function AboutUs() {
                 <div className="absolute bottom-0 opacity-0 group-hover:opacity-100 m-6 transition-all duration-500">
                   <Link
                     href="#!"
-                    className="text-white hover:text-amber-500 font-semibold transition-all duration-500"
+                    className="text-white hover:text-amber-500 font-semibold transition-all duration-500 flex flex-row gap-[10px]"
                   >
-                    Fronter Theme
+                    <FaLinkedin />
+                    <p style={{ marginLeft: "5px" }}> Fronter Theme</p>
                   </Link>
-                  <span className="block text-sm text-slate-400">
-                    UI / UX Design
-                  </span>
+                  <Link
+                    href="#!"
+                    className=" text-sm text-slate-400 flex flex-row gap-[10px] mt-1"
+                  >
+                    <MdOutlineMail />
+                    <p style={{ marginLeft: "5px", marginTop: "-3px" }}>
+                      {" "}
+                      UI / UX Design
+                    </p>
+                  </Link>
                 </div>
                 <div className="absolute z-10 opacity-0 group-hover:opacity-100 top-1/2 -translate-y-1/2 right-0 left-0 mx-auto text-center transition-all duration-500">
                   <Link
@@ -74,229 +85,462 @@ export default function AboutUs() {
                   </Link>
                 </div>
               </div>
-              Kithmina Siriwardana
-              <br /> Undergraduate @ Sri Lanka Institute of Information
-              Technology
-              <br /> Department of Computer Science and Software Engineering
-              <br />
-            </div>
-
-            <div className="relative group overflow-hidden rounded-lg shadow shadow-slate-200 dark:shadow-gray-800">
-              <Image
-                height={0}
-                width={0}
-                sizes="100vw"
-                style={{ height: "auto", width: "100%" }}
-                src="/images/works/2.jpg"
-                alt=""
-              />
-              <div className="absolute inset-0 opacity-0 group-hover:opacity-100 bg-gradient-to-b to-slate-900 from-transparent transition-all duration-500"></div>
-              <div className="absolute bottom-0 opacity-0 group-hover:opacity-100 m-6 transition-all duration-500">
-                <Link
-                  href="#!"
-                  className="text-white hover:text-amber-500 font-semibold transition-all duration-500"
+              <div className="p-3">
+                <p href="" className="title h4 text-[20px] font-medium ">
+                  Dr. Dinuka Wijendra
+                </p>
+                <p
+                  className="text-slate-400  mt-0 "
+                  style={{ fontSize: "12px" }}
                 >
-                  Landrick Theme
-                </Link>
-                <span className="block text-sm text-slate-400">Technology</span>
-              </div>
-
-              <div className="absolute z-10 opacity-0 group-hover:opacity-100 top-1/2 -translate-y-1/2 right-0 left-0 mx-auto text-center transition-all duration-500">
-                <Link
-                  href="#"
-                  onClick={() => handleCLick(1)}
-                  className="btn bg-amber-500 hover:bg-amber-600 border-amber-500 hover:border-amber-600 text-white btn-icon rounded-full lightbox"
+                  Supervisor
+                </p>
+                <p className=" mt-2 font-bold" style={{ fontSize: "12px" }}>
+                  Undergraduate <br />
+                </p>{" "}
+                <span
+                  className="text-slate-400  mt-0 "
+                  style={{ fontSize: "12px" }}
                 >
-                  <Unicons.UilCamera width={16} />
-                </Link>
-              </div>
-            </div>
-
-            <div className="relative group overflow-hidden rounded-lg shadow shadow-slate-200 dark:shadow-gray-800">
-              <Image
-                height={0}
-                width={0}
-                sizes="100vw"
-                style={{ height: "auto", width: "100%" }}
-                src="/images/works/3.jpg"
-                alt=""
-              />
-              <div className="absolute inset-0 opacity-0 group-hover:opacity-100 bg-gradient-to-b to-slate-900 from-transparent transition-all duration-500"></div>
-              <div className="absolute bottom-0 opacity-0 group-hover:opacity-100 m-6 transition-all duration-500">
-                <Link
-                  href="#!"
-                  className="text-white hover:text-amber-500 font-semibold transition-all duration-500"
+                  Sri Lanka Institute of Information Technology
+                </span>
+                <p className=" mt-2 font-bold" style={{ fontSize: "12px" }}>
+                  Department <br />
+                </p>{" "}
+                <span
+                  className="text-slate-400  mt-0 "
+                  style={{ fontSize: "12px" }}
                 >
-                  Valexy Theme
-                </Link>
-                <span className="block text-sm text-slate-400">Landing</span>
-              </div>
-
-              <div className="absolute z-10 opacity-0 group-hover:opacity-100 top-1/2 -translate-y-1/2 right-0 left-0 mx-auto text-center transition-all duration-500">
-                <Link
-                  href="#"
-                  onClick={() => handleCLick(2)}
-                  className="btn bg-amber-500 hover:bg-amber-600 border-amber-500 hover:border-amber-600 text-white btn-icon rounded-full lightbox"
-                >
-                  <Unicons.UilCamera width={16} />
-                </Link>
-              </div>
-            </div>
-
-            <div className="relative group overflow-hidden rounded-lg shadow shadow-slate-200 dark:shadow-gray-800">
-              <Image
-                height={0}
-                width={0}
-                sizes="100vw"
-                style={{ height: "auto", width: "100%" }}
-                src="/images/works/4.jpg"
-                alt=""
-              />
-              <div className="absolute inset-0 opacity-0 group-hover:opacity-100 bg-gradient-to-b to-slate-900 from-transparent transition-all duration-500"></div>
-              <div className="absolute bottom-0 opacity-0 group-hover:opacity-100 m-6 transition-all duration-500">
-                <Link
-                  href="#!"
-                  className="text-white hover:text-amber-500 font-semibold transition-all duration-500"
-                >
-                  Superex Theme
-                </Link>
-                <span className="block text-sm text-slate-400">Digital</span>
-              </div>
-
-              <div className="absolute z-10 opacity-0 group-hover:opacity-100 top-1/2 -translate-y-1/2 right-0 left-0 mx-auto text-center transition-all duration-500">
-                <Link
-                  href="#"
-                  onClick={() => handleCLick(3)}
-                  className="btn bg-amber-500 hover:bg-amber-600 border-amber-500 hover:border-amber-600 text-white btn-icon rounded-full lightbox"
-                >
-                  <Unicons.UilCamera width={16} />
-                </Link>
-              </div>
-            </div>
-
-            <div className="relative group overflow-hidden rounded-lg shadow shadow-slate-200 dark:shadow-gray-800">
-              <Image
-                height={0}
-                width={0}
-                sizes="100vw"
-                style={{ height: "auto", width: "100%" }}
-                src="/images/works/5.jpg"
-                alt=""
-              />
-              <div className="absolute inset-0 opacity-0 group-hover:opacity-100 bg-gradient-to-b to-slate-900 from-transparent transition-all duration-500"></div>
-              <div className="absolute bottom-0 opacity-0 group-hover:opacity-100 m-6 transition-all duration-500">
-                <Link
-                  href="#!"
-                  className="text-white hover:text-amber-500 font-semibold transition-all duration-500"
-                >
-                  Motos Theme
-                </Link>
-                <span className="block text-sm text-slate-400">Landing</span>
-              </div>
-
-              <div className="absolute z-10 opacity-0 group-hover:opacity-100 top-1/2 -translate-y-1/2 right-0 left-0 mx-auto text-center transition-all duration-500">
-                <Link
-                  href="#"
-                  onClick={() => handleCLick(3)}
-                  className="btn bg-amber-500 hover:bg-amber-600 border-amber-500 hover:border-amber-600 text-white btn-icon rounded-full lightbox"
-                >
-                  <Unicons.UilCamera width={16} />
-                </Link>
-              </div>
-            </div>
-
-            <div className="relative group overflow-hidden rounded-lg shadow shadow-slate-200 dark:shadow-gray-800">
-              <Image
-                height={0}
-                width={0}
-                sizes="100vw"
-                style={{ height: "auto", width: "100%" }}
-                src="/images/works/6.jpg"
-                alt=""
-              />
-              <div className="absolute inset-0 opacity-0 group-hover:opacity-100 bg-gradient-to-b to-slate-900 from-transparent transition-all duration-500"></div>
-              <div className="absolute bottom-0 opacity-0 group-hover:opacity-100 m-6 transition-all duration-500">
-                <Link
-                  href="#!"
-                  className="text-white hover:text-amber-500 font-semibold transition-all duration-500"
-                >
-                  Giglink Theme
-                </Link>
-                <span className="block text-sm text-slate-400">Digital</span>
-              </div>
-
-              <div className="absolute z-10 opacity-0 group-hover:opacity-100 top-1/2 -translate-y-1/2 right-0 left-0 mx-auto text-center transition-all duration-500">
-                <Link
-                  href="#"
-                  onClick={() => handleCLick(5)}
-                  className="btn bg-amber-500 hover:bg-amber-600 border-amber-500 hover:border-amber-600 text-white btn-icon rounded-full lightbox"
-                >
-                  <Unicons.UilCamera width={16} />
-                </Link>
-              </div>
-            </div>
-
-            <div className="relative group overflow-hidden rounded-lg shadow shadow-slate-200 dark:shadow-gray-800">
-              <Image
-                height={0}
-                width={0}
-                sizes="100vw"
-                style={{ height: "auto", width: "100%" }}
-                src="/images/works/7.jpg"
-                alt=""
-              />
-              <div className="absolute inset-0 opacity-0 group-hover:opacity-100 bg-gradient-to-b to-slate-900 from-transparent transition-all duration-500"></div>
-              <div className="absolute bottom-0 opacity-0 group-hover:opacity-100 m-6 transition-all duration-500">
-                <Link
-                  href="#!"
-                  className="text-white hover:text-amber-500 font-semibold transition-all duration-500"
-                >
-                  Upwind Theme
-                </Link>
-                <span className="block text-sm text-slate-400">Landing</span>
-              </div>
-
-              <div className="absolute z-10 opacity-0 group-hover:opacity-100 top-1/2 -translate-y-1/2 right-0 left-0 mx-auto text-center transition-all duration-500">
-                <Link
-                  href="#"
-                  onClick={() => handleCLick(6)}
-                  className="btn bg-amber-500 hover:bg-amber-600 border-amber-500 hover:border-amber-600 text-white btn-icon rounded-full lightbox"
-                >
-                  <Unicons.UilCamera width={16} />
-                </Link>
-              </div>
-            </div>
-
-            <div className="relative group overflow-hidden rounded-lg shadow shadow-slate-200 dark:shadow-gray-800">
-              <Image
-                height={0}
-                width={0}
-                sizes="100vw"
-                style={{ height: "auto", width: "100%" }}
-                alt=""
-                src="/images/works/8.jpg"
-              />
-              <div className="absolute inset-0 opacity-0 group-hover:opacity-100 bg-gradient-to-b to-slate-900 from-transparent transition-all duration-500"></div>
-              <div className="absolute bottom-0 opacity-0 group-hover:opacity-100 m-6 transition-all duration-500">
-                <Link
-                  href="#!"
-                  className="text-white hover:text-amber-500 font-semibold transition-all duration-500"
-                >
-                  Techwind Theme
-                </Link>
-                <span className="block text-sm text-slate-400">
-                  Multipurpose
+                  Computer Science and Software Engineering
                 </span>
               </div>
+            </div>
 
-              <div className="absolute z-10 opacity-0 group-hover:opacity-100 top-1/2 -translate-y-1/2 right-0 left-0 mx-auto text-center transition-all duration-500">
-                <Link
-                  href="#"
-                  onClick={() => handleCLick(7)}
-                  className="btn bg-amber-500 hover:bg-amber-600 border-amber-500 hover:border-amber-600 text-white btn-icon rounded-full lightbox"
+            <div className=" shadow shadow-gray-200 hover:shadow-md dark:shadow-gray-800 dark:hover:shadow-gray-700 transition duration-500 rounded-2xl bg-white dark:bg-slate-900">
+              <div className="relative group overflow-hidden rounded-lg shadow shadow-slate-200 dark:shadow-gray-800">
+                <Image
+                  height={0}
+                  width={0}
+                  sizes="100vw"
+                  style={{ height: "auto", width: "100%" }}
+                  src="/images/works/1.jpg"
+                  alt=""
+                />
+                <div className="absolute inset-0 opacity-0 group-hover:opacity-100 bg-gradient-to-b to-slate-900 from-transparent transition-all duration-500"></div>
+                <div className="absolute bottom-0 opacity-0 group-hover:opacity-100 m-6 transition-all duration-500">
+                  <Link
+                    href="#!"
+                    className="text-white hover:text-amber-500 font-semibold transition-all duration-500 flex flex-row gap-[10px]"
+                  >
+                    <FaLinkedin />
+                    <p style={{ marginLeft: "5px" }}> Fronter Theme</p>
+                  </Link>
+                  <Link
+                    href="#!"
+                    className=" text-sm text-slate-400 flex flex-row gap-[10px] mt-1"
+                  >
+                    <MdOutlineMail />
+                    <p style={{ marginLeft: "5px", marginTop: "-3px" }}>
+                      {" "}
+                      UI / UX Design
+                    </p>
+                  </Link>
+                </div>
+                <div className="absolute z-10 opacity-0 group-hover:opacity-100 top-1/2 -translate-y-1/2 right-0 left-0 mx-auto text-center transition-all duration-500">
+                  <Link
+                    href="#"
+                    onClick={() => handleCLick(0)}
+                    className="btn bg-amber-500 hover:bg-amber-600 border-amber-500 hover:border-amber-600 text-white btn-icon rounded-full lightbox"
+                  >
+                    <Unicons.UilCamera width={16} />
+                  </Link>
+                </div>
+              </div>
+              <div className="p-3">
+                <p href="" className="title h4 text-[20px] font-medium ">
+                  Dr. Dilshan De Silva{" "}
+                </p>
+                <p
+                  className="text-slate-400  mt-0 "
+                  style={{ fontSize: "12px" }}
                 >
-                  <Unicons.UilCamera width={16} />
-                </Link>
+                  Co-Supervisor
+                </p>
+                <p className=" mt-2 font-bold" style={{ fontSize: "12px" }}>
+                  Undergraduate <br />
+                </p>{" "}
+                <span
+                  className="text-slate-400  mt-0 "
+                  style={{ fontSize: "12px" }}
+                >
+                  Sri Lanka Institute of Information Technology
+                </span>
+                <p className=" mt-2 font-bold" style={{ fontSize: "12px" }}>
+                  Department <br />
+                </p>{" "}
+                <span
+                  className="text-slate-400  mt-0 "
+                  style={{ fontSize: "12px" }}
+                >
+                  Computer Science and Software Engineering
+                </span>
+              </div>
+            </div>
+
+            <div className=" shadow shadow-gray-200 hover:shadow-md dark:shadow-gray-800 dark:hover:shadow-gray-700 transition duration-500 rounded-2xl bg-white dark:bg-slate-900">
+              <div className="relative group overflow-hidden rounded-lg shadow shadow-slate-200 dark:shadow-gray-800">
+                <Image
+                  height={0}
+                  width={0}
+                  sizes="100vw"
+                  style={{ height: "auto", width: "100%" }}
+                  src="/images/works/1.jpg"
+                  alt=""
+                />
+                <div className="absolute inset-0 opacity-0 group-hover:opacity-100 bg-gradient-to-b to-slate-900 from-transparent transition-all duration-500"></div>
+                <div className="absolute bottom-0 opacity-0 group-hover:opacity-100 m-6 transition-all duration-500">
+                  <Link
+                    href="#!"
+                    className="text-white hover:text-amber-500 font-semibold transition-all duration-500 flex flex-row gap-[10px]"
+                  >
+                    <FaLinkedin />
+                    <p style={{ marginLeft: "5px" }}> Fronter Theme</p>
+                  </Link>
+                  <Link
+                    href="#!"
+                    className=" text-sm text-slate-400 flex flex-row gap-[10px] mt-1"
+                  >
+                    <MdOutlineMail />
+                    <p style={{ marginLeft: "5px", marginTop: "-3px" }}>
+                      {" "}
+                      UI / UX Design
+                    </p>
+                  </Link>
+                </div>
+                <div className="absolute z-10 opacity-0 group-hover:opacity-100 top-1/2 -translate-y-1/2 right-0 left-0 mx-auto text-center transition-all duration-500">
+                  <Link
+                    href="#"
+                    onClick={() => handleCLick(0)}
+                    className="btn bg-amber-500 hover:bg-amber-600 border-amber-500 hover:border-amber-600 text-white btn-icon rounded-full lightbox"
+                  >
+                    <Unicons.UilCamera width={16} />
+                  </Link>
+                </div>
+              </div>
+              <div className="p-3">
+                <p href="" className="title h4 text-[20px] font-medium ">
+                  Dr. Priyanga Iddawela{" "}
+                </p>
+                <p
+                  className="text-slate-400  mt-0 "
+                  style={{ fontSize: "12px" }}
+                >
+                  External Supervisor
+                </p>
+                <p className=" mt-2 font-bold" style={{ fontSize: "12px" }}>
+                  Undergraduate <br />
+                </p>{" "}
+                <span
+                  className="text-slate-400  mt-0 "
+                  style={{ fontSize: "12px" }}
+                >
+                  Sri Lanka Institute of Information Technology
+                </span>
+                <p className=" mt-2 font-bold" style={{ fontSize: "12px" }}>
+                  Department <br />
+                </p>{" "}
+                <span
+                  className="text-slate-400  mt-0 "
+                  style={{ fontSize: "12px" }}
+                >
+                  Computer Science and Software Engineering
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <div className="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-1 mt-8 gap-[30px]">
+            <div className=" shadow shadow-gray-200 hover:shadow-md dark:shadow-gray-800 dark:hover:shadow-gray-700 transition duration-500 rounded-2xl bg-white dark:bg-slate-900">
+              <div className="relative group overflow-hidden rounded-lg shadow shadow-slate-200 dark:shadow-gray-800">
+                <Image
+                  height={0}
+                  width={0}
+                  sizes="100vw"
+                  style={{ height: "auto", width: "100%" }}
+                  src="/images/works/1.jpg"
+                  alt=""
+                />
+                <div className="absolute inset-0 opacity-0 group-hover:opacity-100 bg-gradient-to-b to-slate-900 from-transparent transition-all duration-500"></div>
+                <div className="absolute bottom-0 opacity-0 group-hover:opacity-100 m-6 transition-all duration-500">
+                  <Link
+                    href="#!"
+                    className="text-white hover:text-amber-500 font-semibold transition-all duration-500 flex flex-row gap-[10px]"
+                  >
+                    <FaLinkedin />
+                    <p style={{ marginLeft: "5px" }}> Fronter Theme</p>
+                  </Link>
+                  <Link
+                    href="#!"
+                    className=" text-sm text-slate-400 flex flex-row gap-[10px] mt-1"
+                  >
+                    <MdOutlineMail />
+                    <p style={{ marginLeft: "5px", marginTop: "-3px" }}>
+                      {" "}
+                      UI / UX Design
+                    </p>
+                  </Link>
+                </div>
+                <div className="absolute z-10 opacity-0 group-hover:opacity-100 top-1/2 -translate-y-1/2 right-0 left-0 mx-auto text-center transition-all duration-500">
+                  <Link
+                    href="#"
+                    onClick={() => handleCLick(0)}
+                    className="btn bg-amber-500 hover:bg-amber-600 border-amber-500 hover:border-amber-600 text-white btn-icon rounded-full lightbox"
+                  >
+                    <Unicons.UilCamera width={16} />
+                  </Link>
+                </div>
+              </div>
+              <div className="p-3">
+                <p href="" className="title h4 text-[20px] font-medium ">
+                  Kithmina Siriwadhana
+                </p>
+                <p
+                  className="text-slate-400  mt-0 "
+                  style={{ fontSize: "12px" }}
+                >
+                  Group Leader
+                </p>
+                <p className=" mt-2 font-bold" style={{ fontSize: "12px" }}>
+                  Undergraduate <br />
+                </p>{" "}
+                <span
+                  className="text-slate-400  mt-0 "
+                  style={{ fontSize: "12px" }}
+                >
+                  Sri Lanka Institute of Information Technology
+                </span>
+                <p className=" mt-2 font-bold" style={{ fontSize: "12px" }}>
+                  Department <br />
+                </p>{" "}
+                <span
+                  className="text-slate-400  mt-0 "
+                  style={{ fontSize: "12px" }}
+                >
+                  Computer Science and Software Engineering
+                </span>
+              </div>
+            </div>
+
+            <div className=" shadow shadow-gray-200 hover:shadow-md dark:shadow-gray-800 dark:hover:shadow-gray-700 transition duration-500 rounded-2xl bg-white dark:bg-slate-900">
+              <div className="relative group overflow-hidden rounded-lg shadow shadow-slate-200 dark:shadow-gray-800">
+                <Image
+                  height={0}
+                  width={0}
+                  sizes="100vw"
+                  style={{ height: "auto", width: "100%" }}
+                  src="/images/works/1.jpg"
+                  alt=""
+                />
+                <div className="absolute inset-0 opacity-0 group-hover:opacity-100 bg-gradient-to-b to-slate-900 from-transparent transition-all duration-500"></div>
+                <div className="absolute bottom-0 opacity-0 group-hover:opacity-100 m-6 transition-all duration-500">
+                  <Link
+                    href="#!"
+                    className="text-white hover:text-amber-500 font-semibold transition-all duration-500 flex flex-row gap-[10px]"
+                  >
+                    <FaLinkedin />
+                    <p style={{ marginLeft: "5px" }}> Fronter Theme</p>
+                  </Link>
+                  <Link
+                    href="#!"
+                    className=" text-sm text-slate-400 flex flex-row gap-[10px] mt-1"
+                  >
+                    <MdOutlineMail />
+                    <p style={{ marginLeft: "5px", marginTop: "-3px" }}>
+                      {" "}
+                      UI / UX Design
+                    </p>
+                  </Link>
+                </div>
+                <div className="absolute z-10 opacity-0 group-hover:opacity-100 top-1/2 -translate-y-1/2 right-0 left-0 mx-auto text-center transition-all duration-500">
+                  <Link
+                    href="#"
+                    onClick={() => handleCLick(0)}
+                    className="btn bg-amber-500 hover:bg-amber-600 border-amber-500 hover:border-amber-600 text-white btn-icon rounded-full lightbox"
+                  >
+                    <Unicons.UilCamera width={16} />
+                  </Link>
+                </div>
+              </div>
+              <div className="p-3">
+                <p href="" className="title h4 text-[20px] font-medium ">
+                  Udesh Piyumantha
+                </p>
+                <p
+                  className="text-slate-400  mt-0 "
+                  style={{ fontSize: "12px" }}
+                >
+                  Group Member
+                </p>
+                <p className=" mt-2 font-bold" style={{ fontSize: "12px" }}>
+                  Undergraduate <br />
+                </p>{" "}
+                <span
+                  className="text-slate-400  mt-0 "
+                  style={{ fontSize: "12px" }}
+                >
+                  Sri Lanka Institute of Information Technology
+                </span>
+                <p className=" mt-2 font-bold" style={{ fontSize: "12px" }}>
+                  Department <br />
+                </p>{" "}
+                <span
+                  className="text-slate-400  mt-0 "
+                  style={{ fontSize: "12px" }}
+                >
+                  Computer Science and Software Engineering
+                </span>
+              </div>
+            </div>
+
+            <div className=" shadow shadow-gray-200 hover:shadow-md dark:shadow-gray-800 dark:hover:shadow-gray-700 transition duration-500 rounded-2xl bg-white dark:bg-slate-900">
+              <div className="relative group overflow-hidden rounded-lg shadow shadow-slate-200 dark:shadow-gray-800">
+                <Image
+                  height={0}
+                  width={0}
+                  sizes="100vw"
+                  style={{ height: "auto", width: "100%" }}
+                  src="/images/works/1.jpg"
+                  alt=""
+                />
+                <div className="absolute inset-0 opacity-0 group-hover:opacity-100 bg-gradient-to-b to-slate-900 from-transparent transition-all duration-500"></div>
+                <div className="absolute bottom-0 opacity-0 group-hover:opacity-100 m-6 transition-all duration-500">
+                  <Link
+                    href="#!"
+                    className="text-white hover:text-amber-500 font-semibold transition-all duration-500 flex flex-row gap-[10px]"
+                  >
+                    <FaLinkedin />
+                    <p style={{ marginLeft: "5px" }}> Fronter Theme</p>
+                  </Link>
+                  <Link
+                    href="#!"
+                    className=" text-sm text-slate-400 flex flex-row gap-[10px] mt-1"
+                  >
+                    <MdOutlineMail />
+                    <p style={{ marginLeft: "5px", marginTop: "-3px" }}>
+                      {" "}
+                      UI / UX Design
+                    </p>
+                  </Link>
+                </div>
+                <div className="absolute z-10 opacity-0 group-hover:opacity-100 top-1/2 -translate-y-1/2 right-0 left-0 mx-auto text-center transition-all duration-500">
+                  <Link
+                    href="#"
+                    onClick={() => handleCLick(0)}
+                    className="btn bg-amber-500 hover:bg-amber-600 border-amber-500 hover:border-amber-600 text-white btn-icon rounded-full lightbox"
+                  >
+                    <Unicons.UilCamera width={16} />
+                  </Link>
+                </div>
+              </div>
+              <div className="p-3">
+                <p href="" className="title h4 text-[20px] font-medium ">
+                  Shehan Gunasekara
+                </p>
+                <p
+                  className="text-slate-400  mt-0 "
+                  style={{ fontSize: "12px" }}
+                >
+                  Group Leader
+                </p>
+                <p className=" mt-2 font-bold" style={{ fontSize: "12px" }}>
+                  Undergraduate <br />
+                </p>{" "}
+                <span
+                  className="text-slate-400  mt-0 "
+                  style={{ fontSize: "12px" }}
+                >
+                  Sri Lanka Institute of Information Technology
+                </span>
+                <p className=" mt-2 font-bold" style={{ fontSize: "12px" }}>
+                  Department <br />
+                </p>{" "}
+                <span
+                  className="text-slate-400  mt-0 "
+                  style={{ fontSize: "12px" }}
+                >
+                  Computer Science and Software Engineering
+                </span>
+              </div>
+            </div>
+
+            <div className=" shadow shadow-gray-200 hover:shadow-md dark:shadow-gray-800 dark:hover:shadow-gray-700 transition duration-500 rounded-2xl bg-white dark:bg-slate-900">
+              <div className="relative group overflow-hidden rounded-lg shadow shadow-slate-200 dark:shadow-gray-800">
+                <Image
+                  height={0}
+                  width={0}
+                  sizes="100vw"
+                  style={{ height: "auto", width: "100%" }}
+                  src="/images/works/1.jpg"
+                  alt=""
+                />
+                <div className="absolute inset-0 opacity-0 group-hover:opacity-100 bg-gradient-to-b to-slate-900 from-transparent transition-all duration-500"></div>
+                <div className="absolute bottom-0 opacity-0 group-hover:opacity-100 m-6 transition-all duration-500">
+                  <Link
+                    href="#!"
+                    className="text-white hover:text-amber-500 font-semibold transition-all duration-500 flex flex-row gap-[10px]"
+                  >
+                    <FaLinkedin />
+                    <p style={{ marginLeft: "5px" }}> Fronter Theme</p>
+                  </Link>
+                  <Link
+                    href="#!"
+                    className=" text-sm text-slate-400 flex flex-row gap-[10px] mt-1"
+                  >
+                    <MdOutlineMail />
+                    <p style={{ marginLeft: "5px", marginTop: "-3px" }}>
+                      {" "}
+                      UI / UX Design
+                    </p>
+                  </Link>
+                </div>
+                <div className="absolute z-10 opacity-0 group-hover:opacity-100 top-1/2 -translate-y-1/2 right-0 left-0 mx-auto text-center transition-all duration-500">
+                  <Link
+                    href="#"
+                    onClick={() => handleCLick(0)}
+                    className="btn bg-amber-500 hover:bg-amber-600 border-amber-500 hover:border-amber-600 text-white btn-icon rounded-full lightbox"
+                  >
+                    <Unicons.UilCamera width={16} />
+                  </Link>
+                </div>
+              </div>
+              <div className="p-3">
+                <p href="" className="title h4 text-[20px] font-medium ">
+                  Sahan Thilakarathne
+                </p>
+                <p
+                  className="text-slate-400  mt-0 "
+                  style={{ fontSize: "12px" }}
+                >
+                  Group Member
+                </p>
+                <p className=" mt-2 font-bold" style={{ fontSize: "12px" }}>
+                  Undergraduate <br />
+                </p>{" "}
+                <span
+                  className="text-slate-400  mt-0 "
+                  style={{ fontSize: "12px" }}
+                >
+                  Sri Lanka Institute of Information Technology
+                </span>
+                <p className=" mt-2 font-bold" style={{ fontSize: "12px" }}>
+                  Department <br />
+                </p>{" "}
+                <span
+                  className="text-slate-400  mt-0 "
+                  style={{ fontSize: "12px" }}
+                >
+                  Computer Science and Software Engineering
+                </span>
               </div>
             </div>
           </div>
