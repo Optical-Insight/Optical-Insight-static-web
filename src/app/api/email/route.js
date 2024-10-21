@@ -12,13 +12,6 @@ export async function POST(request) {
     },
   });
 
-  console.log(process.env.MY_EMAIL);
-  console.log(process.env.MY_PASSWORD);
-  console.log(email);
-  console.log(name);
-  console.log(subject);
-  console.log(message);
-
   const mailOptions = {
     from: process.env.MY_EMAIL,
     to: email,
