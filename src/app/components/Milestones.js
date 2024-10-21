@@ -34,9 +34,8 @@ function Milestones() {
                 <div className="ltr:float-left rtl:float-right text-start md:ms-8 mt-6 md:mt-0">
                   <h5 className="title mb-1 font-semibold">Project Proposal</h5>
                   <p className="mt-3 mb-0 text-slate-400 text-[15px]">
-                    The generated injected humour, or non-characteristic words
-                    etc. Cum sociis natoque penatibus et magnis dis parturient
-                    montes, nascetur ridiculus mus. Donec quam felis,
+                    A Project Proposal is presented to potential sponsors or
+                    clients to receive funding or get your project approved.
                   </p>
                 </div>
               </div>
@@ -62,9 +61,9 @@ function Milestones() {
                     Progress Presentation I
                   </h5>
                   <p className="mt-3 mb-0 text-slate-400 text-[15px]">
-                    The generated injected humour, or non-characteristic words
-                    etc. Cum sociis natoque penatibus et magnis dis parturient
-                    montes, nascetur ridiculus mus. Donec quam felis,
+                    Progress Presentation I reviews the 50% completetion status
+                    of the project. This reveals any gaps or inconsistencies in
+                    the design/requirements.
                   </p>
                 </div>
               </div>
@@ -88,9 +87,9 @@ function Milestones() {
                 <div className="ltr:float-left rtl:float-right text-start md:ms-8 mt-6 md:mt-0">
                   <h5 className="title mb-1 font-semibold">Research Paper</h5>
                   <p className="mt-3 mb-0 text-slate-400 text-[15px]">
-                    The generated injected humour, or non-characteristic words
-                    etc. Cum sociis natoque penatibus et magnis dis parturient
-                    montes, nascetur ridiculus mus. Donec quam felis,
+                    Describes what you contribute to existing knowledge, giving
+                    due recognition to all work that you referred in making new
+                    knowledge.
                   </p>
                 </div>
               </div>
@@ -116,9 +115,9 @@ function Milestones() {
                     Progress Presentation II
                   </h5>
                   <p className="mt-3 mb-0 text-slate-400 text-[15px]">
-                    The generated injected humour, or non-characteristic words
-                    etc. Cum sociis natoque penatibus et magnis dis parturient
-                    montes, nascetur ridiculus mus. Donec quam felis,
+                    Progress Presentation II reviews the 90% completetion status
+                    demonstration of the project. Along with a Poster
+                    presesntation which describes the project as a whole.
                   </p>
                 </div>
               </div>
@@ -145,9 +144,8 @@ function Milestones() {
                     Website Assessment
                   </h5>
                   <p className="mt-3 mb-0 text-slate-400 text-[15px]">
-                    The generated injected humour, or non-characteristic words
-                    etc. Cum sociis natoque penatibus et magnis dis parturient
-                    montes, nascetur ridiculus mus. Donec quam felis,
+                    The Website helps to promote our research project and
+                    reveals all details related to the project.
                   </p>
                 </div>
               </div>
@@ -171,9 +169,8 @@ function Milestones() {
                 <div className="ltr:float-left rtl:float-right md:text-end md:me-8 mt-6 md:mt-0 md:order-1">
                   <h5 className="title mb-1 font-semibold">Logbook</h5>
                   <p className="mt-3 mb-0 text-slate-400 text-[15px]">
-                    The generated injected humour, or non-characteristic words
-                    etc. Cum sociis natoque penatibus et magnis dis parturient
-                    montes, nascetur ridiculus mus. Donec quam felis,
+                    Status of the project is validated through the Logbook. This
+                    also includes, Status documents 1 & 2.
                   </p>
                 </div>
               </div>
@@ -197,12 +194,11 @@ function Milestones() {
                 <div className="ltr:float-left rtl:float-right text-start md:ms-8 mt-6 md:mt-0">
                   <h5 className="title mb-1 font-semibold">
                     {" "}
-                    Website Assessment
+                    Final Presentation & Viva
                   </h5>
                   <p className="mt-3 mb-0 text-slate-400 text-[15px]">
-                    The generated injected humour, or non-characteristic words
-                    etc. Cum sociis natoque penatibus et magnis dis parturient
-                    montes, nascetur ridiculus mus. Donec quam felis,
+                    Viva is held individually to assess each members
+                    contribution to the project.
                   </p>
                 </div>
               </div>
@@ -226,9 +222,9 @@ function Milestones() {
                 <div className="ltr:float-left rtl:float-right md:text-end md:me-8 mt-6 md:mt-0 md:order-1">
                   <h5 className="title mb-1 font-semibold">Final Report</h5>
                   <p className="mt-3 mb-0 text-slate-400 text-[15px]">
-                    The generated injected humour, or non-characteristic words
-                    etc. Cum sociis natoque penatibus et magnis dis parturient
-                    montes, nascetur ridiculus mus. Donec quam felis,
+                    Final Report evalutes the completed project done throughout
+                    the year. Marks mentioned below includes marks for
+                    Individual & group reports and also Final report.
                   </p>
                 </div>
               </div>

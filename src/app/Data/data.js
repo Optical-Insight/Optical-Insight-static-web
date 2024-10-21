@@ -149,7 +149,7 @@ export const presentationSet = [
   {
     title: "Progress Presentation I",
     desc: "The phrasal sequence of the is now so that many campaign and benefit The phrasal ",
-    link: "",
+    link: "https://drive.google.com/file/d/1FBFyl0UPC4iANVhblm9sUVF-4wMAT1O-/view?usp=sharing",
   },
   {
     title: "Progress Presentation II",
@@ -165,33 +165,35 @@ export const presentationSet = [
 
 export const ResearchObjectiveData = [
   {
-    title: "Objective 1",
-    desc: "The phrasal sequence of the is now so that many campaign and benefit The phrasal sequence of the is now so that many campaign and benefit The phrasal sequence of the is now so that many campaign and benefit",
+    title: "Objective 1: Identifying and Delineating Glaucoma",
+    desc: "The objective is to develop a deep learning model that can accurately detect and delineate Glaucoma by focusing on optic nerve damage and optic disc localization. Using YOLOv8x for object detection, the model will account for variations in image quality and demographic differences. This will provide early diagnosis, reduce human error, and allow for timely intervention, thereby preventing vision loss.",
     Icon: Icon.Airplay,
   },
   {
-    title: "Objective 2",
-    desc: "The phrasal sequence of the is now so that many campaign and benefit The phrasal sequence of the is now so that many campaign and benefit The phrasal sequence of the is now so that many campaign and benefit The phrasal sequence of the is now so that many campaign and benefit",
+    title: "Objective 2: Identifying and Delineating Drusen",
+    desc: "Drusen are early indicators of Age-related Macular Degeneration (AMD), and detecting them accurately is crucial for early treatment. This objective aims to design a hybrid ResNet-VGG16 model that can differentiate Drusen from other retinal features, ensuring precise delineation. High sensitivity and specificity in Drusen detection will help in the early identification of AMD, enhancing patient monitoring and treatment outcomes.",
     Icon: Icon.Aperture,
   },
   {
-    title: "Objective 3",
-    desc: "The phrasal sequence of the is now so that many campaign and benefit",
+    title: "Objective 3: Identifying and Delineating Macular Holes",
+    desc: "Macular Holes lead to significant vision impairment if not diagnosed early. The research aims to create a hybrid U-Net-ResNet model to detect and segment even subtle early-stage macular holes. By overcoming challenges like overfitting and variability in image quality, the model will ensure precise localization, improving the chances of early intervention and preventing permanent vision damage.",
     Icon: Icon.Camera,
   },
   {
-    title: "Objective 4",
-    desc: "The phrasal sequence of the is now so that many campaign and benefit",
+    title:
+      "Objective 4: Identifying and Delineating Central Serous Retinopathy",
+    desc: "CSR involves fluid accumulation under the retina, causing visual disturbances. This objective focuses on developing a hybrid DenseNet-VGG16 model that accurately identifies CSR across varying imaging conditions and demographics. By detecting fluid buildup early and reliably, the model will enable better disease management and quicker treatment, reducing the potential for long-term visual impairment in patients.",
     Icon: Icon.Compass,
   },
   {
-    title: "Objective 5",
-    desc: "The phrasal sequence of the is now so that many campaign and benefit",
+    title:
+      "Objective 5: Enhancing Generalization and Reducing Overfitting in Deep Learning Models",
+    desc: "Another key objective is to ensure the models generalize well across diverse datasets, addressing the common issue of overfitting. By employing advanced data augmentation techniques and hyperparameter tuning, the research seeks to create robust models that maintain high accuracy and consistency even when faced with demographic and image variability. This objective ensures that the models can be reliably applied to a wide range of clinical scenarios.",
     Icon: Icon.Settings,
   },
   {
-    title: "Objective 6",
-    desc: "The phrasal sequence of the is now so that many campaign and benefit",
+    title: "Objective 6: Creating a Web-Based Application",
+    desc: "The research aims to develop a web-based application that integrates these trained models for real-world clinical use. The application will allow healthcare professionals to upload retinal images, receive real-time diagnostic results, and visualize areas of concern. Built with a microservice architecture, the system will be scalable, user-friendly, and capable of enhancing clinical workflows while ensuring timely and accurate diagnostics.",
     Icon: Icon.Watch,
   },
 ];
