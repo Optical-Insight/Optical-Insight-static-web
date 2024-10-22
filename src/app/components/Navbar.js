@@ -53,8 +53,11 @@ export default function Navbar() {
 
         <div className="nav-icons flex items-center lg_992:order-2 ms-auto md:ms-8">
           {/* <!-- Navbar Button --> */}
-          <ul className="list-none menu-social mb-0">
-            <li className="inline-flex">
+          <ul
+            className="list-none menu-social mb-0 w-[196px]"
+            style={{ minWidth: "100px" }}
+          >
+            {/* <li className="inline-flex min-w-[96px]">
               <Link href="" className="ms-1">
                 <span className="login-btn-primary">
                   <span className="btn btn-icon btn-sm rounded-full bg-amber-500 hover:bg-amber-600 dark:border-gray-700 dark:hover:border-gray-700 text-white">
@@ -91,7 +94,7 @@ export default function Navbar() {
                   </span>
                 </span>
               </Link>
-            </li>
+            </li> */}
           </ul>
           {/* <!-- Navbar Collapse Manu Button --> */}
           <button

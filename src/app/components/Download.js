@@ -39,13 +39,21 @@ function Documents() {
               >
                 <FaRegFilePdf className="h-10 w-10 stroke-1 text-amber-500" />
 
-                <div className="content mt-7">
+                <div
+                  className="content mt-7 "
+                  style={{
+                    height: "250px",
+                    display: "flex",
+                    flexDirection: "column",
+                    justifyContent: "space-between",
+                  }}
+                >
                   <p href="" className="title h5 text-[17px] font-medium ">
                     {item.title}
                   </p>
                   <p className="text-slate-400 mt-3 text-[15px]">{item.desc}</p>
 
-                  <div className="mt-5">
+                  <div>
                     <Link
                       href={item.link}
                       className={`hover:text-amber-500 dark:hover:text-amber-500 after:bg-amber-500 dark:text-white transition duration-500 inline-flex items-center gap-1 ${
@@ -85,13 +93,21 @@ function Documents() {
               >
                 <FaRegFilePowerpoint className="h-10 w-10 stroke-1 text-amber-500" />
 
-                <div className="content mt-7">
+                <div
+                  className="content mt-7"
+                  style={{
+                    height: "200px",
+                    display: "flex",
+                    flexDirection: "column",
+                    justifyContent: "space-between",
+                  }}
+                >
                   <p className="title h5 text-[17px] font-medium">
                     {item.title}
                   </p>
                   <p className="text-slate-400 mt-3 text-[15px]">{item.desc}</p>
 
-                  <div className="mt-5">
+                  <div>
                     <Link
                       href={item.link}
                       className={`hover:text-amber-500 dark:hover:text-amber-500 after:bg-amber-500 dark:text-white transition duration-500 inline-flex items-center gap-1 ${

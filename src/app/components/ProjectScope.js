@@ -9,7 +9,7 @@ import Technology from "./Technology";
 
 export default function ProjectScope() {
   return (
-    <section id="projectScop">
+    <section id="projectScop" className="md:pb-24 pb-16">
       <div className="relative md:py-24 py-16">
         <LiteratureSurvey />
       </div>
@@ -25,7 +25,7 @@ export default function ProjectScope() {
       <div className="relative  ">
         <Methodology />
       </div>
-      <div className="relative ">
+      <div className="relative   ">
         <Technology />
       </div>
     </section>

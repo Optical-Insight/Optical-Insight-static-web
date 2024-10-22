@@ -20,7 +20,6 @@ function Methodology() {
               />
             </div>
           </div>
-
           <div className="lg:col-span-6">
             <div className="lg:ms-5">
               <h3 className="mb-6 md:text-2xl text-xl md:leading-normal leading-normal font-semibold">
@@ -52,20 +51,23 @@ function Methodology() {
                 introduced to improve generalization across diverse imaging
                 setups.
               </p>
-              <p className="text-slate-400 max-w-xl text-[15px] mt-6">
-                Each model was rigorously trained and validated using metrics
-                such as accuracy, F1-score, and AUC-ROC. To facilitate
-                real-world application, these models were integrated into a
-                web-based application using microservice architecture. The
-                application allows healthcare professionals to upload retinal
-                images, receive real-time diagnostic results, and view marked-up
-                images showing areas of concern. Google Cloud Run was employed
-                for deployment, ensuring scalability and secure data handling,
-                while Docker was used to containerize each microservice for
-                easier management​.
-              </p>
             </div>
-          </div>
+          </div>{" "}
+        </div>{" "}
+        <div className=" items-center gap-[30px]">
+          <div className="lg:col-span-12">
+            <p className="text-slate-400 text-[15px] mt-6">
+              Each model was rigorously trained and validated using metrics such
+              as accuracy, F1-score, and AUC-ROC. To facilitate real-world
+              application, these models were integrated into a web-based
+              application using microservice architecture. The application
+              allows healthcare professionals to upload retinal images, receive
+              real-time diagnostic results, and view marked-up images showing
+              areas of concern. Google Cloud Run was employed for deployment,
+              ensuring scalability and secure data handling, while Docker was
+              used to containerize each microservice for easier management.
+            </p>
+          </div>{" "}
         </div>
       </div>
     </div>

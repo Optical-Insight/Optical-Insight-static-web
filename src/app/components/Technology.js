@@ -3,7 +3,7 @@ import { expertiseData } from "../Data/data";
 
 function Technology() {
   return (
-    <div>
+    <div className="md:pb-24 pb-16" style={{ paddingBottom: "64px" }}>
       <div className="container md:mt-24 mt-16">
         <div className="grid grid-cols-1 pb-8 text-center">
           <h3 className="mb-6 md:text-2xl text-xl md:leading-normal leading-normal font-semibold">

@@ -316,7 +316,7 @@ export const aboutUsSupervisors = [
     memberType: "External Supervisor",
     position: "Consultant Eye Surgeon",
     workPlace: "General Hospital, Colombo",
-    image: "/images/aboutUs/priyangaIddawela.jpeg",
+    image: "/images/aboutUs/priyangaIddawela.jpg",
     department: "Ophthalmology",
     linkedIn:
       "https://www.linkedin.com/in/priyanga-iddawela-35815b35/?originalSubdomain=lk",
@@ -353,7 +353,7 @@ export const aboutUsStudents = [
     memberType: "Group Member",
     position: "Undergraduate",
     workPlace: "Sri Lanka Institute of Information Technology",
-    image: "/images/aboutUs/shehanGunasekara.jpeg",
+    image: "/images/aboutUs/shehanGunasekara.png",
     department: "Computer Science and Software Engineering",
     linkedIn: "https://www.linkedin.com/in/shehan-gunasekara-b29638245/",
     linkedInName: "Shehan Gunasekara",
