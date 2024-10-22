@@ -321,7 +321,7 @@ export const aboutUsSupervisors = [
     linkedIn:
       "https://www.linkedin.com/in/priyanga-iddawela-35815b35/?originalSubdomain=lk",
     linkedInName: "Priyanga IddawelaView",
-    email: "dinuka@gmail.com",
+    email: "priyangaiddawela@gmail.com",
   },
 ];
 
