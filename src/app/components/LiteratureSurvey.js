@@ -72,24 +72,24 @@ function LiteratureSurvey() {
               </p>
               <div className="text-slate-400 text-[15px] mt-6">
                 <span className="font-bold">References:</span>
-                <p className="text-slate-400 text-[15px]">
+                <p className="text-slate-400 " style={{ fontSize: "13px" }}>
                   [1] K. Yenice, C. Kara, T. Türkoglu, D. Işık, İ. Çelik,
                   &quot;Predictive value of serum inflammatory markers in
                   retinopathy of prematurity,&quot; Eye, Jul. 2024.
                 </p>
-                <p className="text-slate-400 text-[15px]">
+                <p className="text-slate-400 " style={{ fontSize: "13px" }}>
                   [2] J. You, A. Perkis and M. Gabbouj, &quot;Improving image
                   quality assessment with modeling visual attention,&quot; 2010
                   2nd European Workshop on Visual Information Processing
                   (EUVIP), Paris, France, 2010, pp. 177-182.
                 </p>
-                <p className="text-slate-400 text-[15px]">
+                <p className="text-slate-400 " style={{ fontSize: "13px" }}>
                   [3] P. Mitchell, W. Smith, K. Attebo, J. Wang,
                   &quot;Prevalence of Age-related Maculopathy in
                   Australia,&quot; The Blue Mountains Eye Study, Ophthalmology,
                   vol. 102, no. 10, pp. 1450–1460, Oct. 1995.
                 </p>
-                <p className="text-slate-400 text-[15px]">
+                <p className="text-slate-400 " style={{ fontSize: "13px" }}>
                   [4] S. Waseem, M. U. Akram and B. A. Ahmed, &quot;Drusen
                   detection from colored fundus images for diagnosis of age
                   related Macular degeneration,&quot; 7th International

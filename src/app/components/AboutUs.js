@@ -12,10 +12,10 @@ import { aboutUsSupervisors, aboutUsStudents } from "../Data/data";
 const images = [
   "/images/aboutUs/dinukaWijendra.jpeg",
   "/images/aboutUs/dilshanDeSilva.jpeg",
-  "/images/aboutUs/priyangaIddawela.jpeg",
+  "/images/aboutUs/priyangaIddawela.jpg",
   "/images/aboutUs/kithminaSiriwardana.jpeg",
   "/images/aboutUs/UdeshPiyumantha.jpeg",
-  "/images/aboutUs/shehanGunasekara.jpeg",
+  "/images/aboutUs/shehanGunasekara.png",
   "/images/aboutUs/SahanThilakarathne.jpeg",
 ];
 
@@ -68,11 +68,17 @@ export default function AboutUs() {
                         className="text-white hover:text-amber-500 font-semibold transition-all duration-500 flex flex-row gap-[10px]"
                       >
                         <FaLinkedin />
-                        <p style={{ marginLeft: "5px" }}>{item.linkedInName}</p>
+                        <p style={{ marginLeft: "5px", marginTop: "-3px" }}>
+                          {item.linkedInName}
+                        </p>
                       </Link>
                       <Link
-                        href={item.email}
-                        className=" text-sm text-slate-400 flex flex-row gap-[10px] mt-1"
+                        href="#"
+                        className="text-sm text-slate-400 flex flex-row gap-[10px] mt-1"
+                        onClick={(e) => {
+                          e.preventDefault();
+                          window.location.href = `mailto:${item.email}`;
+                        }}
                       >
                         <MdOutlineMail />
                         <p style={{ marginLeft: "5px", marginTop: "-3px" }}>
@@ -84,8 +90,8 @@ export default function AboutUs() {
                     <div className="absolute z-10 opacity-0 group-hover:opacity-100 top-1/2 -translate-y-1/2 right-0 left-0 mx-auto text-center transition-all duration-500">
                       <Link
                         href="#"
-                        onClick={() => handleCLick(0)}
-                        className="btn bg-amber-500 hover:bg-amber-600 border-amber-500 hover:border-amber-600 text-white btn-icon rounded-full lightbox"
+                        onClick={() => handleCLick(index)}
+                        className="btn bg-amber-500  text-white btn-icon rounded-full lightbox"
                       >
                         <Unicons.UilCamera width={16} />
                       </Link>
@@ -148,11 +154,17 @@ export default function AboutUs() {
                         className="text-white hover:text-amber-500 font-semibold transition-all duration-500 flex flex-row gap-[10px]"
                       >
                         <FaLinkedin />
-                        <p style={{ marginLeft: "5px" }}>{item.linkedInName}</p>
+                        <p style={{ marginLeft: "5px", marginTop: "-3px" }}>
+                          {item.linkedInName}
+                        </p>
                       </Link>
                       <Link
-                        href={item.email}
-                        className=" text-sm text-slate-400 flex flex-row gap-[10px] mt-1"
+                        href="#"
+                        className="text-sm text-slate-400 flex flex-row gap-[10px] mt-1"
+                        onClick={(e) => {
+                          e.preventDefault();
+                          window.location.href = `mailto:${item.email}`;
+                        }}
                       >
                         <MdOutlineMail />
                         <p style={{ marginLeft: "5px", marginTop: "-3px" }}>
@@ -164,8 +176,8 @@ export default function AboutUs() {
                     <div className="absolute z-10 opacity-0 group-hover:opacity-100 top-1/2 -translate-y-1/2 right-0 left-0 mx-auto text-center transition-all duration-500">
                       <Link
                         href="#"
-                        onClick={() => handleCLick(0)}
-                        className="btn bg-amber-500 hover:bg-amber-600 border-amber-500 hover:border-amber-600 text-white btn-icon rounded-full lightbox"
+                        onClick={() => handleCLick(3 + index)}
+                        className="btn bg-amber-500 text-white btn-icon rounded-full lightbox"
                       >
                         <Unicons.UilCamera width={16} />
                       </Link>

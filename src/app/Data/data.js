@@ -294,11 +294,11 @@ export const aboutUsSupervisors = [
     position: "Senior Lecturer",
     workPlace: "Sri Lanka Institute of Information Technology",
     image: "/images/aboutUs/dinukaWijendra.jpeg",
-    department: "Computer Science and Software Engineering",
+    department: "Information Technology",
     linkedIn:
       "https://www.linkedin.com/in/dinuka-wijendra-b87002245/?originalSubdomain=lk",
     linkedInName: "Dinuka Wijendra",
-    email: "dinuka@gmail.com",
+    email: "dinuka.w@sliit.lk",
   },
   {
     name: "Dr. Dilshan De Silva",
@@ -306,17 +306,17 @@ export const aboutUsSupervisors = [
     position: "Senior Lecturer",
     workPlace: "Sri Lanka Institute of Information Technology",
     image: "/images/aboutUs/dilshanDeSilva.jpeg",
-    department: "Computer Science and Software Engineering",
+    department: "Information Technology",
     linkedIn: "https://www.linkedin.com/in/dr-dilshan-de-silva-96384573/",
     linkedInName: "Dr. Dilshan De Silva",
-    email: "dilshanDeSilva@gmail.com",
+    email: "dilshan.i@sliit.lk",
   },
   {
     name: "Dr. Priyanga Iddawela",
     memberType: "External Supervisor",
     position: "Consultant Eye Surgeon",
     workPlace: "General Hospital, Colombo",
-    image: "/images/aboutUs/priyangaIddawela.jpeg",
+    image: "/images/aboutUs/priyangaIddawela.jpg",
     department: "Ophthalmology",
     linkedIn:
       "https://www.linkedin.com/in/priyanga-iddawela-35815b35/?originalSubdomain=lk",
@@ -335,7 +335,7 @@ export const aboutUsStudents = [
     department: "Computer Science and Software Engineering",
     linkedIn: "https://www.linkedin.com/in/kithmina-siriwardana-996593213/",
     linkedInName: "Kithmina Siriwardana",
-    email: "kithmina@gmail.com",
+    email: "kithminasiriwardana13@gmail.com",
   },
   {
     name: "Udesh Piyumantha",
@@ -346,18 +346,18 @@ export const aboutUsStudents = [
     department: "Computer Science and Software Engineering",
     linkedIn: "https://www.linkedin.com/in/udesh-piyumantha/",
     linkedInName: "Udesh Piyumantha ",
-    email: "udesh@gmail.com",
+    email: "udeshpiyumantha@gmail.com",
   },
   {
     name: "Shehan Gunasekara",
     memberType: "Group Member",
     position: "Undergraduate",
     workPlace: "Sri Lanka Institute of Information Technology",
-    image: "/images/aboutUs/shehanGunasekara.jpeg",
+    image: "/images/aboutUs/shehanGunasekara.png",
     department: "Computer Science and Software Engineering",
     linkedIn: "https://www.linkedin.com/in/shehan-gunasekara-b29638245/",
     linkedInName: "Shehan Gunasekara",
-    email: "shehan@gmail.com",
+    email: "shehangunasekara2019@gmail.com",
   },
   {
     name: "Sahan Thilakarathne",
@@ -369,6 +369,6 @@ export const aboutUsStudents = [
     linkedIn:
       "https://www.linkedin.com/in/sahan-pradeeptha-thilakaratne-a5b2951b2/",
     linkedInName: "Sahan Pradeeptha Thilakaratne",
-    email: "kithmina@gmail.com",
+    email: "sahanpradeeptha@gmail.com",
   },
 ];

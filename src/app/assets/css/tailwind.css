@@ -1605,7 +1605,8 @@ p {
   font-size: 15px;
   font-weight: 500;
   --tw-text-opacity: 1;
-  color: rgb(25 51 120 / var(--tw-text-opacity));
+  /* color: rgb(25 51 120 / var(--tw-text-opacity)); */
+  color: rgb(53 117 254 / 0.6);
 }
 .navbar .navigation .navbar-nav .nav-link:hover {
   --tw-text-opacity: 1;
